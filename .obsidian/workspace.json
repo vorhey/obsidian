@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Docker.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 278.5
   },
   "right": {
     "id": "946d4b31042da3b9",
