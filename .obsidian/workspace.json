@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go/Datatypes/Composite.md",
+                "file": "Docker.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Go/Datatypes/Composite.md",
+                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Go/Datatypes/Composite.md",
+                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Go/Datatypes/Composite.md"
+                "file": "Docker.md"
               }
             }
           },
@@ -156,12 +156,12 @@
   },
   "active": "d7420d129a241a29",
   "lastOpenFiles": [
-    "Go/Datatypes/Primitives.md",
     "Go/Operators.md",
+    "Go/Datatypes/Primitives.md",
     "Go/Datatypes/Composite.md",
+    "README.md",
     "Docker.md",
     "Go/Datatypes",
-    "Go",
-    "README.md"
+    "Go"
   ]
 }
