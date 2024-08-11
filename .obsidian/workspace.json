@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e2896cc7ff34dbe1",
+            "id": "d7420d129a241a29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Go/Datatypes/Composite.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Go/Datatypes/Composite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Go/Datatypes/Composite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Go/Datatypes/Composite.md"
               }
             }
           },
           {
-            "id": "00dd72a73b0e2659",
+            "id": "a01b47eb8540ad21",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 358.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -154,8 +154,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e2896cc7ff34dbe1",
+  "active": "d7420d129a241a29",
   "lastOpenFiles": [
+    "Go/Datatypes/Primitives.md",
+    "Go/Operators.md",
+    "Go/Datatypes/Composite.md",
+    "Docker.md",
+    "Go/Datatypes",
+    "Go",
     "README.md"
   ]
 }
