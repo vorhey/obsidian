@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go/Operators.md",
-                "mode": "preview",
+                "file": "Docker.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Go/Operators.md",
+                "file": "Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Go/Operators.md",
+                "file": "Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Go/Operators.md"
+                "file": "Docker.md"
               }
             }
           },
@@ -156,10 +156,11 @@
   },
   "active": "d7420d129a241a29",
   "lastOpenFiles": [
+    "Go/Modules.md",
+    "Go/Operators.md",
     "Go/Datatypes/Primitives.md",
     "Go/Datatypes/Composite.md",
     "Docker.md",
-    "Go/Operators.md",
     "README.md",
     "Go/Datatypes",
     "Go"
