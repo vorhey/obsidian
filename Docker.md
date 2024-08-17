@@ -12,6 +12,7 @@
 | `docker run -d`                                       | Run a container in detached mode                              | `docker run -d nginx`                     |
 | `docker run -it <image> <command>`                    | Run a container from an image and executes a command          | `docker run -it ubuntu:latest sh`         |
 | `docker run -p <local-port>:<container-port> <image>` | Run a container with port mapping                             | `docker run -p 8080:8080 nodejs-server`   |
+| `docker run -v <working-dir>:<container-dir> <image>` | Run a container with a volume mapping                         | `docker run -v $(pwd):/app 28cdfn`        |
 | `docker stop`                                         | Stop a running container                                      | `docker stop container_id`                |
 | `docker rm <container-id>`                            | Remove a container                                            | `docker rm container_id`                  |
 | `docker rmi <image-id>`                               | Remove an image                                               | `docker rmi image_id`                     |
