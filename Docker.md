@@ -7,7 +7,7 @@
 | `docker build .`                                      | Build an image from a Dockerfile                              | `docker build .`                          |
 | `docker build --progress=plain .`                     | Build an image from a Dockerfile with progress flag activated | `docker build --progress=plain .`         |
 | `docker build -t <tag-name> .`                        | Build an image from a Dockerfile with a tag                   | `docker build jherrerau/redis:latest .`   |
-| `docker exec -it <container-id> <command>`            | Executes an additional command in a container                 | `docker exec -it 1234abc /bin/bash`       |
+| `docker exec -it <container-id> <command>`            | Executes an additional command in a container                 | `docker exec -it 1234abc sh`              |
 | `docker run`                                          | Run a container from an image                                 | `docker run -d -p 80:80 nginx`            |
 | `docker run -d`                                       | Run a container in detached mode                              | `docker run -d nginx`                     |
 | `docker run -it <image> <command>`                    | Run a container from an image and executes a command          | `docker run -it ubuntu:latest sh`         |
