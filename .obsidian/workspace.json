@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "C#/Design Patterns/Singleton/Static Singleton.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -156,11 +156,11 @@
   },
   "active": "b4c1b308b34b4903",
   "lastOpenFiles": [
-    "C#/Design Patterns/Singleton/Static Singleton.md",
-    "C#/Design Patterns/Factory/Factory Method.md",
-    "C#/Design Patterns/Singleton",
-    "C#/Design Patterns/Factory/Abstract Factory.md",
     "C#/Design Patterns/Factory/Simple Factory.md",
+    "C#/Design Patterns/Factory/Factory Method.md",
+    "C#/Design Patterns/Factory/Abstract Factory.md",
+    "C#/Design Patterns/Singleton/Static Singleton.md",
+    "C#/Design Patterns/Singleton",
     "C#/Datatypes/Value Types.md",
     "C#/Datatypes/Reference Types.md",
     "Docker.md",
