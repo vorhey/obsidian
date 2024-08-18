@@ -1,96 +1,163 @@
 ```csharp
-
-using Microsoft.Extensions.DependencyInjection;
 using Sandbox;
 
-static IServiceProvider BuildServiceProvider()
-{
-    var services = new ServiceCollection();
-    services.AddSingleton<App>();
-    return services.BuildServiceProvider();
-}
+var margheritaFactory = new MargheritaPizzaFactory();
+var pepperoniFactory = new PepperoniPizzaFactory();
+var veggieFactory = new VeggiePizzaFactory();
 
-BuildServiceProvider().GetRequiredService<App>().Run(args);
+var margheritaToppings = new List<string> { "Extra Cheese", "Basil" };
+var pepperoniToppings = new List<string> { "Extra Pepperoni", "Olives" };
+var veggieToppings = new List<string> { "Mushrooms", "Bell Peppers", "Onions" };
+
+margheritaFactory.OrderPizza(Size.Large, Crust.Thin, margheritaToppings);
+pepperoniFactory.OrderPizza(Size.Medium, Crust.Regular, pepperoniToppings);
+veggieFactory.OrderPizza(Size.ExtraLarge, Crust.Pan, veggieToppings);
 
 namespace Sandbox
 {
-    public class App
+    public enum Size
     {
-        public void Run(string[] args)
-        {
-            DatabaseEngine dbEngine1 = new SqlServerEngine();
-            dbEngine1.ProcessData("Query to process data");
+        None,
+        Medium,
+        Large,
+        ExtraLarge,
+    }
 
-            DatabaseEngine dbEngine2 = new OracleEngine();
-            dbEngine1.ProcessData("Query to process data");
+    public enum Crust
+    {
+        None,
+        Thin,
+        Regular,
+        Pan,
+    }
+
+    public abstract class Pizza
+    {
+        public Size Size { get; set; }
+        public Crust Crust { get; set; }
+        public List<string> Toppings { get; set; } = new List<string>();
+
+        public abstract string GetDescription();
+        public abstract double GetCost();
+
+        public void Prepare()
+        {
+            Console.WriteLine($"Preparing {Size} {GetDescription()} with {Crust} crust.");
+            Console.WriteLine($"Toppings: {string.Join(", ", Toppings)}");
+        }
+
+        public void Bake()
+        {
+            Console.WriteLine("Baking pizza...");
+        }
+
+        public void Cut()
+        {
+            Console.WriteLine("Cutting pizza...");
+        }
+
+        public void Box()
+        {
+            Console.WriteLine("Boxing pizza...");
         }
     }
 
-    // Product Interface
-    public interface IDatabase
+    public class MargheritaPizza : Pizza
     {
-        void Connect();
-        void ExecuteQuery(string query);
-    }
-
-    // Concrete Product: SQL Server
-    public class SqlServerDatabase : IDatabase
-    {
-        public void Connect()
+        public override string GetDescription()
         {
-            Console.WriteLine("Connecting to SQL Server database...");
+            return "Margherita Pizza";
         }
 
-        public void ExecuteQuery(string query)
+        public override double GetCost()
         {
-            Console.WriteLine("Executing query in SQL Server database: " + query);
+            return 8.50 + Toppings.Count * 1.00; // Base price + extra toppings
         }
     }
 
-    // Concrete Product: Oracle
-    public class OracleDatabase : IDatabase
+    public class PepperoniPizza : Pizza
     {
-        public void Connect()
+        public override string GetDescription()
         {
-            Console.WriteLine("Connecting to Oracle database...");
+            return "Pepperoni Pizza";
         }
 
-        public void ExecuteQuery(string query)
+        public override double GetCost()
         {
-            Console.WriteLine("Executing query in Oracle database: " + query);
+            return 10.00 + Toppings.Count * 1.00; // Base price + extra toppings
         }
     }
 
-    // Abstract Creator
-    public abstract class DatabaseEngine
+    public class VeggiePizza : Pizza
     {
-        public abstract IDatabase CreateDatabase();
-
-        public void ProcessData(string query)
+        public override string GetDescription()
         {
-            IDatabase database = CreateDatabase();
-            database.Connect();
-            database.ExecuteQuery(query);
+            return "Veggie Pizza";
+        }
+
+        public override double GetCost()
+        {
+            return 9.00 + Toppings.Count * 1.00; // Base price + extra toppings
         }
     }
 
-    // Concrete Creator 1: SQL Server
-    public class SqlServerEngine : DatabaseEngine
+    public abstract class BasePizzaFactory
     {
-        public override IDatabase CreateDatabase()
+        public abstract Pizza CreatePizza(Size size, Crust crust, List<string> toppings);
+
+        public Pizza OrderPizza(Size size, Crust crust, List<string> toppings)
         {
-            return new SqlServerDatabase();
+            Pizza pizza = CreatePizza(size, crust, toppings);
+            pizza.Prepare();
+            pizza.Bake();
+            pizza.Cut();
+            pizza.Box();
+            Console.WriteLine($"Cost: ${pizza.GetCost()}\n");
+            return pizza;
         }
     }
 
-    // Concrete Creator 2: Oracle
-    public class OracleEngine : DatabaseEngine
+    public class MargheritaPizzaFactory : BasePizzaFactory
     {
-        public override IDatabase CreateDatabase()
+        public override Pizza CreatePizza(Size size, Crust crust, List<string> toppings)
         {
-            return new OracleDatabase();
+            var pizza = new MargheritaPizza
+            {
+                Size = size,
+                Crust = crust,
+                Toppings = toppings,
+            };
+            return pizza;
         }
     }
 
+    public class PepperoniPizzaFactory : BasePizzaFactory
+    {
+        public override Pizza CreatePizza(Size size, Crust crust, List<string> toppings)
+        {
+            var pizza = new PepperoniPizza
+            {
+                Size = size,
+                Crust = crust,
+                Toppings = toppings,
+            };
+            return pizza;
+        }
+    }
+
+    public class VeggiePizzaFactory : BasePizzaFactory
+    {
+        public override Pizza CreatePizza(Size size, Crust crust, List<string> toppings)
+        {
+            var pizza = new VeggiePizza
+            {
+                Size = size,
+                Crust = crust,
+                Toppings = toppings,
+            };
+            return pizza;
+        }
+    }
 }
+
 ```
