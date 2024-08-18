@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker.md",
-                "mode": "source",
+                "file": "C#/Design Patterns/Factory/Factory Method.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
+                "file": "C#/Design Patterns/Factory/Factory Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
+                "file": "C#/Design Patterns/Factory/Factory Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker.md"
+                "file": "C#/Design Patterns/Factory/Factory Method.md"
               }
             }
           },
@@ -156,8 +156,18 @@
   },
   "active": "d7420d129a241a29",
   "lastOpenFiles": [
-    "Go/Datatypes/Primitives.md",
+    "C#/Design Patterns/Factory/Simple Factory.md",
+    "C#/Design Patterns/Factory/Factory Method.md",
+    "C#/Design Patterns/Factory/Abstract Factory.md",
     "Docker.md",
+    "C#/Design Patterns/Factory",
+    "C#/Design Patterns",
+    "C#/Datatypes/Value Types.md",
+    "C#/Datatypes/Reference Types.md",
+    "C#/Datatypes",
+    "C#",
+    "C#/Reference Types",
+    "Go/Datatypes/Primitives.md",
     "Go/Datatypes/Composite.md",
     "Go/Modules.md",
     "Go/Operators.md",
