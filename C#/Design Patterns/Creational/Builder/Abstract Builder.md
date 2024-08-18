@@ -1,115 +1,107 @@
 ```csharp
+using Sandbox;
+
+var amb = new AndroidBuilder();
+
+var p1 = amb.SetModel("S21 Galaxy").Build();
+
+Console.WriteLine(p1);
+
 namespace Sandbox
 {
-    public record Mobile
-    {
-        public string Model { get; init; } = default!;
-        public string Color { get; init; } = default!;
-        public ScreenType ScreenType { get; init; }
-        public Battery Battery { get; init; }
-        public BaseOS BaseOS { get; init; }
-    }
-
-    public enum ScreenType
-    {
-        None,
-        Gorilla,
-        Saphire,
-    }
-
     public enum Battery
     {
         None,
         Mha1500,
+        Mha2000,
         Mha3000,
     }
 
-    public enum BaseOS
+    public enum BaseOs
     {
         None,
-        Ios,
         Android,
+        Ios,
+    }
+
+    public enum Color
+    {
+        None,
+        Blue,
+        Green,
+        Red,
+        White,
+    }
+
+    public record Mobile
+    {
+        public string Model { get; set; } = default!;
+        public Battery Battery { get; set; }
+        public BaseOs BaseOs { get; set; }
+        public Color Color { get; set; }
     }
 
     public abstract class MobileBuilder
     {
-        protected string Model = default!;
-
-        protected string Color = default!;
-
-        protected ScreenType ScreenType;
-
-        protected Battery Battery;
-
-        protected BaseOS BaseOS;
-
-        public MobileBuilder SetModel(string model)
-        {
-            Model = model;
-            return this;
-        }
-
-        public MobileBuilder SetColor(string color)
-        {
-            Color = color;
-            return this;
-        }
-
-        public MobileBuilder SetScreen(ScreenType screenType)
-        {
-            ScreenType = screenType;
-            return this;
-        }
-
-        public MobileBuilder SetBattery(Battery battery)
-        {
-            Battery = battery;
-            return this;
-        }
-
-        public MobileBuilder SetBaseOS(BaseOS os)
-        {
-            BaseOS = os;
-            return this;
-        }
+        protected Mobile Mobile = new();
 
         public abstract Mobile Build();
+
+        public abstract MobileBuilder SetModel(string model);
+
+        public abstract MobileBuilder SetBattery(Battery battery);
+
+        public abstract MobileBuilder SetBaseOs(BaseOs baseOs);
+
+        public abstract MobileBuilder SetColor(Color color);
     }
 
-    public class AndroidBuilder : MobileBuilder
+    public sealed class AndroidBuilder : MobileBuilder
     {
         public override Mobile Build()
         {
-            ArgumentNullException.ThrowIfNullOrEmpty(Model);
+            ArgumentNullException.ThrowIfNullOrEmpty(Mobile.Model);
 
-            if (string.IsNullOrEmpty(Color))
+            if (Mobile.BaseOs == BaseOs.None)
             {
-                Color = "white";
+                Mobile.BaseOs = BaseOs.Android;
             }
 
-            if (ScreenType == ScreenType.None)
+            if (Mobile.Color == Color.None)
             {
-                ScreenType = ScreenType.Gorilla;
+                Mobile.Color = Color.White;
             }
 
-            if (Battery == Battery.None)
+            if (Mobile.Battery == Battery.None)
             {
-                Battery = Battery.Mha1500;
+                Mobile.Battery = Battery.Mha2000;
             }
 
-            if (BaseOS == BaseOS.None)
-            {
-                BaseOS = BaseOS.Android;
-            }
+            return Mobile;
+        }
 
-            return new Mobile
-            {
-                Model = Model,
-                Color = Color,
-                ScreenType = ScreenType,
-                Battery = Battery,
-                BaseOS = BaseOS,
-            };
+        public override MobileBuilder SetBaseOs(BaseOs baseOperatingSystem)
+        {
+            Mobile.BaseOs = baseOperatingSystem;
+            return this;
+        }
+
+        public override MobileBuilder SetBattery(Battery battery)
+        {
+            Mobile.Battery = battery;
+            return this;
+        }
+
+        public override MobileBuilder SetColor(Color color)
+        {
+            Mobile.Color = color;
+            return this;
+        }
+
+        public override MobileBuilder SetModel(string model)
+        {
+            Mobile.Model = model;
+            return this;
         }
     }
 }
