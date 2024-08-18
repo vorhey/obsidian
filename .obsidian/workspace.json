@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "357eb48e162c327f",
+        "id": "89624b2803650310",
         "type": "tabs",
         "children": [
           {
-            "id": "dea3943a5345ae54",
+            "id": "800d6396c858a71f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Design Patterns/Creational/Builder/Abstract Builder.md",
-                "mode": "preview",
+                "file": "C#/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C#/Design Patterns/Creational/Builder/Abstract Builder.md",
+                "file": "C#/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C#/Design Patterns/Creational/Builder/Abstract Builder.md",
+                "file": "C#/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C#/Design Patterns/Creational/Builder/Abstract Builder.md"
+                "file": "C#/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md"
               }
             }
           },
@@ -155,13 +155,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dea3943a5345ae54",
+  "active": "800d6396c858a71f",
   "lastOpenFiles": [
+    "C#/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
+    "C#/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
+    "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain",
+    "C#/Design Patterns/Creational/Builder/Abstract Builder.md",
     "C#/Design Patterns/Creational/Singleton/Static Singleton.md",
     "C#/Design Patterns/Behavioral/Chain of Responsibility",
     "C#/Design Patterns/Behavioral/Chain of Responsiblity.md",
     "C#/Design Patterns/Behavioral",
-    "C#/Design Patterns/Creational/Builder/Abstract Builder.md",
     "C#/Design Patterns/Creational/Factory/Abstract Factory.md",
     "C#/Design Patterns/Creational/Factory/Factory Method.md",
     "C#/Design Patterns/Creational/Factory/Simple Factory.md",
@@ -175,7 +178,6 @@
     "C#/Design Patterns",
     "C#/Datatypes",
     "C#",
-    "C#/Reference Types",
     "Go/Datatypes/Primitives.md",
     "Go/Datatypes/Composite.md",
     "Go/Modules.md",
