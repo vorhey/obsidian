@@ -2,6 +2,7 @@
 using Sandbox;
 
 var account = new BankAccount();
+
 var commands = new List<BankAccountCommand>()
 {
     new(account, BankOperation.Deposit, 100),
@@ -17,6 +18,7 @@ foreach (var command in commands)
 var reversed = Enumerable.Reverse(commands);
 
 Console.WriteLine($"Account Balance: {account.Balance}");
+
 foreach (var command in reversed)
 {
     command.Undo();
@@ -43,6 +45,7 @@ namespace Sandbox
             {
                 return false;
             }
+
             Balance += amount;
             Console.WriteLine($"Deposited: {amount}");
             return true;
@@ -54,6 +57,7 @@ namespace Sandbox
             {
                 return false;
             }
+
             Balance -= amount;
             Console.WriteLine($"Withdrew: {amount}");
             return true;
@@ -90,18 +94,13 @@ namespace Sandbox
             {
                 return;
             }
-            switch (bankOperation)
+
+            _ = bankOperation switch
             {
-                case BankOperation.Withdraw:
-                    bankAccount.Deposit(amount);
-                    break;
-                case BankOperation.Deposit:
-                    bankAccount.Withdraw(amount);
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException($"Invalid argument {bankOperation}");
-            }
-            ;
+                BankOperation.Withdraw => bankAccount.Deposit(amount),
+                BankOperation.Deposit => bankAccount.Withdraw(amount),
+                _ => throw new ArgumentOutOfRangeException($"Invalid argument {bankOperation}")
+            };
         }
     }
 }
