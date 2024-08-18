@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
-                "mode": "preview",
+                "file": "C#/Design Patterns/Creational/Factory/Factory Method.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C#/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
+                "file": "C#/Design Patterns/Creational/Factory/Factory Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C#/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
+                "file": "C#/Design Patterns/Creational/Factory/Factory Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C#/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md"
+                "file": "C#/Design Patterns/Creational/Factory/Factory Method.md"
               }
             }
           },
@@ -157,17 +157,18 @@
   },
   "active": "800d6396c858a71f",
   "lastOpenFiles": [
-    "C#/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
-    "C#/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
-    "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain",
+    "C#/Design Patterns/Creational/Factory/Simple Factory.md",
+    "C#/Design Patterns/Creational/Factory/Factory Method.md",
+    "C#/Design Patterns/Creational/Factory/Abstract Factory.md",
     "C#/Design Patterns/Creational/Builder/Abstract Builder.md",
+    "C#/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
+    "C#/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
+    "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
+    "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain",
     "C#/Design Patterns/Creational/Singleton/Static Singleton.md",
     "C#/Design Patterns/Behavioral/Chain of Responsibility",
     "C#/Design Patterns/Behavioral/Chain of Responsiblity.md",
     "C#/Design Patterns/Behavioral",
-    "C#/Design Patterns/Creational/Factory/Abstract Factory.md",
-    "C#/Design Patterns/Creational/Factory/Factory Method.md",
-    "C#/Design Patterns/Creational/Factory/Simple Factory.md",
     "C#/Design Patterns/Creational/Builder",
     "C#/Design Patterns/Creational",
     "C#/Design Patterns/Creational/Singleton",

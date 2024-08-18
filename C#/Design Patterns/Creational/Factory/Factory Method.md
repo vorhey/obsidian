@@ -83,6 +83,7 @@ namespace Sandbox
             Console.WriteLine("- Spreading a layer of San Marzano tomato sauce");
             Console.WriteLine("- Adding fresh mozzarella cheese");
             Console.WriteLine("- Placing fresh basil leaves");
+            
             foreach (var topping in Toppings)
             {
                 Console.WriteLine($"- Adding extra topping: {topping}");
@@ -134,6 +135,7 @@ namespace Sandbox
             Console.WriteLine("- Spreading zesty tomato sauce");
             Console.WriteLine("- Sprinkling a generous layer of mozzarella cheese");
             Console.WriteLine("- Arranging pepperoni slices in a circular pattern");
+            
             foreach (var topping in Toppings)
             {
                 Console.WriteLine($"- Adding extra topping: {topping}");
@@ -144,9 +146,7 @@ namespace Sandbox
         {
             Console.WriteLine("Baking Pepperoni Pizza:");
             Console.WriteLine("- Preheating oven to 450┬░F (232┬░C)");
-            Console.WriteLine(
-                "- Baking for 12-15 minutes until cheese is bubbly and crust is golden brown"
-            );
+            Console.WriteLine("- Baking for 12-15 minutes until cheese is bubbly and crust is golden brown");
         }
 
         public override void Cut()
@@ -167,9 +167,7 @@ namespace Sandbox
     {
         public VeggiePizza()
         {
-            BaseIngredients.AddRange(
-                new[] { "Dough", "Sauce", "Mushrooms", "Bell Peppers", "Onions" }
-            );
+            BaseIngredients.AddRange(new[] { "Dough", "Sauce", "Mushrooms", "Bell Peppers", "Onions" });
         }
 
         public override string GetDescription()
@@ -189,10 +187,12 @@ namespace Sandbox
             Console.WriteLine("- Spreading a layer of garlic-herb tomato sauce");
             Console.WriteLine("- Adding a mix of mozzarella and feta cheese");
             Console.WriteLine("- Arranging sliced mushrooms, bell peppers, and red onions");
+            
             foreach (var topping in Toppings)
             {
                 Console.WriteLine($"- Adding extra topping: {topping}");
             }
+            
             Console.WriteLine("- Drizzling with olive oil and sprinkling dried oregano");
         }
 
@@ -200,9 +200,7 @@ namespace Sandbox
         {
             Console.WriteLine("Baking Veggie Pizza:");
             Console.WriteLine("- Preheating oven to 425┬░F (218┬░C)");
-            Console.WriteLine(
-                "- Baking for 15-18 minutes, until vegetables are tender and crust is crispy"
-            );
+            Console.WriteLine("- Baking for 15-18 minutes, until vegetables are tender and crust is crispy");
         }
 
         public override void Cut()
@@ -225,12 +223,15 @@ namespace Sandbox
 
         public Pizza OrderPizza(Size size, Crust crust, List<string> toppings)
         {
-            Pizza pizza = CreatePizza(size, crust, toppings);
+            var pizza = CreatePizza(size, crust, toppings);
+            
             pizza.Prepare();
             pizza.Bake();
             pizza.Cut();
             pizza.Box();
+            
             Console.WriteLine($"Cost: ${pizza.GetCost()}\n");
+            
             return pizza;
         }
     }
