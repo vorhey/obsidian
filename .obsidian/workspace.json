@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Design Patterns/Singleton/Static Singleton.md",
+                "file": "C#/Design Patterns/Creational/Builder/Abstract Builder.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C#/Design Patterns/Singleton/Static Singleton.md",
+                "file": "C#/Design Patterns/Creational/Builder/Abstract Builder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C#/Design Patterns/Singleton/Static Singleton.md",
+                "file": "C#/Design Patterns/Creational/Builder/Abstract Builder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C#/Design Patterns/Singleton/Static Singleton.md"
+                "file": "C#/Design Patterns/Creational/Builder/Abstract Builder.md"
               }
             }
           },
@@ -156,15 +156,18 @@
   },
   "active": "b4c1b308b34b4903",
   "lastOpenFiles": [
-    "C#/Design Patterns/Factory/Simple Factory.md",
-    "C#/Design Patterns/Factory/Factory Method.md",
-    "C#/Design Patterns/Factory/Abstract Factory.md",
-    "C#/Design Patterns/Singleton/Static Singleton.md",
-    "C#/Design Patterns/Singleton",
+    "C#/Design Patterns/Creational/Factory/Simple Factory.md",
+    "C#/Design Patterns/Creational/Builder/Abstract Builder.md",
+    "C#/Design Patterns/Creational/Builder",
+    "C#/Design Patterns/Creational/Factory/Factory Method.md",
+    "C#/Design Patterns/Creational/Factory/Abstract Factory.md",
+    "C#/Design Patterns/Creational/Singleton/Static Singleton.md",
+    "C#/Design Patterns/Creational",
+    "C#/Design Patterns/Creational/Singleton",
     "C#/Datatypes/Value Types.md",
     "C#/Datatypes/Reference Types.md",
     "Docker.md",
-    "C#/Design Patterns/Factory",
+    "C#/Design Patterns/Creational/Factory",
     "C#/Design Patterns",
     "C#/Datatypes",
     "C#",
