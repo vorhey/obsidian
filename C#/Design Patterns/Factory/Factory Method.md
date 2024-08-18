@@ -1,20 +1,24 @@
 ```csharp
-using Sandbox;
-
-var margheritaFactory = new MargheritaPizzaFactory();
-var pepperoniFactory = new PepperoniPizzaFactory();
-var veggieFactory = new VeggiePizzaFactory();
-
-var margheritaToppings = new List<string> { "Extra Cheese", "Basil" };
-var pepperoniToppings = new List<string> { "Extra Pepperoni", "Olives" };
-var veggieToppings = new List<string> { "Mushrooms", "Bell Peppers", "Onions" };
-
-margheritaFactory.OrderPizza(Size.Large, Crust.Thin, margheritaToppings);
-pepperoniFactory.OrderPizza(Size.Medium, Crust.Regular, pepperoniToppings);
-veggieFactory.OrderPizza(Size.ExtraLarge, Crust.Pan, veggieToppings);
-
 namespace Sandbox
 {
+    public class App
+    {
+        public void Run(string[] args)
+        {
+            var margheritaFactory = new MargheritaPizzaFactory();
+            var pepperoniFactory = new PepperoniPizzaFactory();
+            var veggieFactory = new VeggiePizzaFactory();
+
+            var margheritaToppings = new List<string> { "Extra Cheese", "Basil" };
+            var pepperoniToppings = new List<string> { "Extra Pepperoni", "Olives" };
+            var veggieToppings = new List<string> { "Mushrooms", "Bell Peppers", "Onions" };
+
+            margheritaFactory.OrderPizza(Size.Large, Crust.Thin, margheritaToppings);
+            pepperoniFactory.OrderPizza(Size.Medium, Crust.Regular, pepperoniToppings);
+            veggieFactory.OrderPizza(Size.ExtraLarge, Crust.Pan, veggieToppings);
+        }
+    }
+
     public enum Size
     {
         None,
