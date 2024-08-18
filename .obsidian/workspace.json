@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Design Patterns/Creational/Singleton/Static Singleton.md",
+                "file": "C#/Design Patterns/Behavioral/Command/Simple Command.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C#/Design Patterns/Creational/Singleton/Static Singleton.md",
+                "file": "C#/Design Patterns/Behavioral/Command/Simple Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C#/Design Patterns/Creational/Singleton/Static Singleton.md",
+                "file": "C#/Design Patterns/Behavioral/Command/Simple Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C#/Design Patterns/Creational/Singleton/Static Singleton.md"
+                "file": "C#/Design Patterns/Behavioral/Command/Simple Command.md"
               }
             }
           },
@@ -157,6 +157,9 @@
   },
   "active": "800d6396c858a71f",
   "lastOpenFiles": [
+    "C#/Design Patterns/Creational/Singleton/Static Singleton.md",
+    "C#/Design Patterns/Behavioral/Command/Simple Command.md",
+    "C#/Design Patterns/Behavioral/Command",
     "C#/Design Patterns/Creational/Factory/Simple Factory.md",
     "C#/Design Patterns/Creational/Factory/Factory Method.md",
     "C#/Design Patterns/Creational/Factory/Abstract Factory.md",
@@ -165,7 +168,6 @@
     "C#/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
     "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
     "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain",
-    "C#/Design Patterns/Creational/Singleton/Static Singleton.md",
     "C#/Design Patterns/Behavioral/Chain of Responsibility",
     "C#/Design Patterns/Behavioral/Chain of Responsiblity.md",
     "C#/Design Patterns/Behavioral",
@@ -178,7 +180,6 @@
     "C#/Design Patterns/Creational/Factory",
     "C#/Design Patterns",
     "C#/Datatypes",
-    "C#",
     "Go/Datatypes/Primitives.md",
     "Go/Datatypes/Composite.md",
     "Go/Modules.md",
