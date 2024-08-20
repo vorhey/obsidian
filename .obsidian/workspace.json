@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C#/Design Patterns/Behavioral/Command/Simple Command.md",
+                "file": "C#/Design Patterns/Structural/Composite/Simple Composite.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C#/Design Patterns/Behavioral/Command/Simple Command.md",
+                "file": "C#/Design Patterns/Structural/Composite/Simple Composite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C#/Design Patterns/Behavioral/Command/Simple Command.md",
+                "file": "C#/Design Patterns/Structural/Composite/Simple Composite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C#/Design Patterns/Behavioral/Command/Simple Command.md"
+                "file": "C#/Design Patterns/Structural/Composite/Simple Composite.md"
               }
             }
           },
@@ -157,8 +157,10 @@
   },
   "active": "800d6396c858a71f",
   "lastOpenFiles": [
-    "C#/Design Patterns/Behavioral/Command/Composite Command.md",
     "C#/Design Patterns/Behavioral/Command/Simple Command.md",
+    "C#/Design Patterns/Structural/Composite/Simple Composite.md",
+    "C#/Design Patterns/Structural/Composite",
+    "C#/Design Patterns/Behavioral/Command/Composite Command.md",
     "C#/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
     "C#/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
     "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
@@ -180,7 +182,6 @@
     "C#/Design Patterns/Creational/Singleton",
     "Docker.md",
     "C#/Design Patterns/Creational/Factory",
-    "C#/Design Patterns",
     "Go/Datatypes/Primitives.md",
     "Go/Datatypes/Composite.md",
     "Go/Modules.md",
