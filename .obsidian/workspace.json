@@ -149,9 +149,15 @@
   },
   "active": "ae5286ab71bcc2f5",
   "lastOpenFiles": [
-    "C-Sharp/C-Sharp.md",
-    "Go/Go.md",
+    "Go/Operators.md",
     "Docker.md",
+    "C-Sharp/C-Sharp.md",
+    "Go/Modules.md",
+    "C-Sharp/Design Patterns/Behavioral/Behavioral.md",
+    "C-Sharp/Design Patterns/Design Patterns.md",
+    "C-Sharp/Design Patterns/Behavioral/Command/Command.md",
+    "C-Sharp/Datatypes/Datatypes.md",
+    "Go/Go.md",
     "Go/index.md",
     "index.md",
     "Untitled.canvas",
@@ -179,11 +185,6 @@
     "C-Sharp/Design Patterns/Behavioral",
     "C-Sharp/Design Patterns/Creational/Builder",
     "C-Sharp/Design Patterns/Creational",
-    "C-Sharp/Design Patterns/Creational/Singleton",
-    "Go/Datatypes/Primitives.md",
-    "Go/Datatypes/Composite.md",
-    "Go/Modules.md",
-    "Go/Operators.md",
-    "README.md"
+    "C-Sharp/Design Patterns/Creational/Singleton"
   ]
 }
