@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "89624b2803650310",
+        "id": "07d4405fed130a3f",
         "type": "tabs",
         "children": [
           {
-            "id": "800d6396c858a71f",
+            "id": "ae5286ab71bcc2f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C#/Design Patterns/Structural/Decorator/Simple Decorator.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C#/Design Patterns/Structural/Decorator/Simple Decorator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C#/Design Patterns/Structural/Decorator/Simple Decorator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "C#/Design Patterns/Structural/Decorator/Simple Decorator.md"
-              }
+              "state": {}
             }
           },
           {
@@ -155,34 +147,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "800d6396c858a71f",
+  "active": "ae5286ab71bcc2f5",
   "lastOpenFiles": [
-    "C#/Design Patterns/Structural/Composite/Simple Composite.md",
-    "C#/Design Patterns/Structural/Decorator/Simple Decorator.md",
-    "C#/Design Patterns/Structural/Decorator",
-    "C#/Design Patterns/Behavioral/Command/Simple Command.md",
-    "C#/Design Patterns/Structural/Composite",
-    "C#/Design Patterns/Behavioral/Command/Composite Command.md",
-    "C#/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
-    "C#/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
-    "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
-    "C#/Datatypes/Value Types.md",
-    "C#/Datatypes/Reference Types.md",
-    "C#/Design Patterns/Structural",
-    "C#/Design Patterns/Creational/Builder/Abstract Builder.md",
-    "C#/Design Patterns/Creational/Factory/Abstract Factory.md",
-    "C#/Design Patterns/Creational/Factory/Factory Method.md",
-    "C#/Design Patterns/Creational/Factory/Simple Factory.md",
-    "C#/Design Patterns/Creational/Singleton/Static Singleton.md",
-    "C#/Design Patterns/Behavioral/Command",
-    "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain",
-    "C#/Design Patterns/Behavioral/Chain of Responsibility",
-    "C#/Design Patterns/Behavioral/Chain of Responsiblity.md",
-    "C#/Design Patterns/Behavioral",
-    "C#/Design Patterns/Creational/Builder",
-    "C#/Design Patterns/Creational",
-    "C#/Design Patterns/Creational/Singleton",
+    "C-Sharp/C-Sharp.md",
+    "Go/Go.md",
     "Docker.md",
+    "Go/index.md",
+    "index.md",
+    "Untitled.canvas",
+    "C-Sharp/Design Patterns/Structural/Decorator/Simple Decorator.md",
+    "C-Sharp/Design Patterns/Structural/Composite/Simple Composite.md",
+    "C-Sharp/Design Patterns/Structural/Decorator",
+    "C-Sharp/Design Patterns/Behavioral/Command/Simple Command.md",
+    "C-Sharp/Design Patterns/Structural/Composite",
+    "C-Sharp/Design Patterns/Behavioral/Command/Composite Command.md",
+    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
+    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
+    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
+    "C-Sharp/Datatypes/Value Types.md",
+    "C-Sharp/Datatypes/Reference Types.md",
+    "C-Sharp/Design Patterns/Structural",
+    "C-Sharp/Design Patterns/Creational/Builder/Abstract Builder.md",
+    "C-Sharp/Design Patterns/Creational/Factory/Abstract Factory.md",
+    "C-Sharp/Design Patterns/Creational/Factory/Factory Method.md",
+    "C-Sharp/Design Patterns/Creational/Factory/Simple Factory.md",
+    "C-Sharp/Design Patterns/Creational/Singleton/Static Singleton.md",
+    "C-Sharp/Design Patterns/Behavioral/Command",
+    "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain",
+    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility",
+    "C#/Design Patterns/Behavioral/Chain of Responsiblity.md",
+    "C-Sharp/Design Patterns/Behavioral",
+    "C-Sharp/Design Patterns/Creational/Builder",
+    "C-Sharp/Design Patterns/Creational",
+    "C-Sharp/Design Patterns/Creational/Singleton",
     "Go/Datatypes/Primitives.md",
     "Go/Datatypes/Composite.md",
     "Go/Modules.md",
