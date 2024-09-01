@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C-Sharp/Concurrency/Multithreading/Parallel processing/Parallel processing.md",
+                "file": "C-Sharp/Concurrency/Asynchronous programming/Asynchronous programming.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C-Sharp/Concurrency/Multithreading/Parallel processing/Parallel processing.md",
+                "file": "C-Sharp/Concurrency/Asynchronous programming/Asynchronous programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C-Sharp/Concurrency/Multithreading/Parallel processing/Parallel processing.md",
+                "file": "C-Sharp/Concurrency/Asynchronous programming/Asynchronous programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C-Sharp/Concurrency/Multithreading/Parallel processing/Parallel processing.md"
+                "file": "C-Sharp/Concurrency/Asynchronous programming/Asynchronous programming.md"
               }
             }
           },
@@ -157,10 +157,12 @@
   },
   "active": "ae5286ab71bcc2f5",
   "lastOpenFiles": [
+    "C-Sharp/Concurrency/Reactive programming/Reactive programming.md",
+    "C-Sharp/Concurrency/Multithreading/Parallel processing/Parallel processing.md",
+    "C-Sharp/Concurrency/Reactive programming",
     "C-Sharp/Concurrency/Multithreading/Multithreading.md",
     "C-Sharp/Concurrency/Asynchronous programming/Asynchronous programming.md",
     "C-Sharp/Concurrency/Concurrency.md",
-    "C-Sharp/Concurrency/Multithreading/Parallel processing/Parallel processing.md",
     "C-Sharp/Concurrency/Asynchronous programming",
     "C-Sharp/Design Patterns/Design Patterns.md",
     "C-Sharp/Concurrency/Multithreading",
@@ -190,9 +192,7 @@
     "C-Sharp/Datatypes/Reference Types.md",
     "C-Sharp/Design Patterns/Structural",
     "C-Sharp/Design Patterns/Creational/Builder/Abstract Builder.md",
-    "C-Sharp/Design Patterns/Creational/Factory/Abstract Factory.md",
     "C-Sharp/Design Patterns/Behavioral/Command",
-    "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain",
-    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility"
+    "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain"
   ]
 }

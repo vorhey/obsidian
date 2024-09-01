@@ -1,0 +1,1 @@
+- A declarative style of programming where the application reacts to events
