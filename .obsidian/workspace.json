@@ -157,6 +157,8 @@
   },
   "active": "ae5286ab71bcc2f5",
   "lastOpenFiles": [
+    "C-Sharp/Design Patterns/Creational/Factory/Simple Factory.md",
+    "C-Sharp/Design Patterns/Creational/Factory/Factory Method.md",
     "C-Sharp/Concurrency/Multithreading/Parallel processing/Parallel processing.md",
     "C-Sharp/Concurrency/Asynchronous programming/Asynchronous programming.md",
     "C-Sharp/Concurrency/Reactive programming/Reactive programming.md",
@@ -189,9 +191,7 @@
     "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
     "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
     "C-Sharp/Datatypes/Value Types.md",
-    "C-Sharp/Datatypes/Reference Types.md",
     "C-Sharp/Design Patterns/Structural",
-    "C-Sharp/Design Patterns/Creational/Builder/Abstract Builder.md",
     "C-Sharp/Design Patterns/Behavioral/Command",
     "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain"
   ]
