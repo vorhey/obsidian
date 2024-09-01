@@ -1,0 +1,3 @@
+- Involves dividing work among multiple threads that run concurrently.
+- Aims to maximize the use of multiple processor cores.
+- Uses multithreading as a mechanism to achieve parallelism.

@@ -1,4 +1,5 @@
 %% Begin Waypoint %%
+- **[[Concurrency]]**
 - **[[Datatypes]]**
 	- [[Reference Types]]
 	- [[Value Types]]

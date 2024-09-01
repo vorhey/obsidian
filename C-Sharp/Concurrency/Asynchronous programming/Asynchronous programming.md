@@ -1,0 +1,1 @@
+- A form of concurrency that uses futures or callbacks to avoid unnecessary threads
