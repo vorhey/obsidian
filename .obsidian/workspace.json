@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker.md",
-                "mode": "source",
+                "file": "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker.md",
+                "file": "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker.md",
+                "file": "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker.md"
+                "file": "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md"
               }
             }
           },
@@ -157,6 +157,8 @@
   },
   "active": "ae5286ab71bcc2f5",
   "lastOpenFiles": [
+    "C-Sharp/C-Sharp.md",
+    "Docker.md",
     "C-Sharp/Design Patterns/Creational/Factory/Factory Method.md",
     "C-Sharp/Design Patterns/Creational/Factory/Simple Factory.md",
     "C-Sharp/Concurrency/Multithreading/Parallel processing/Parallel processing.md",
@@ -171,8 +173,6 @@
     "C-Sharp/Concurrency/Multithreading/Parallel processing",
     "C-Sharp/Concurrency",
     "Go/Operators.md",
-    "Docker.md",
-    "C-Sharp/C-Sharp.md",
     "Go/Modules.md",
     "C-Sharp/Design Patterns/Behavioral/Behavioral.md",
     "C-Sharp/Design Patterns/Behavioral/Command/Command.md",
