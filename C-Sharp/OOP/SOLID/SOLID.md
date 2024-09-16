@@ -1,5 +1,4 @@
 %% Begin Waypoint %%
-- [[Abstraction]]
-- **[[SOLID]]**
+- [[Open Close Principle]]
 
 %% End Waypoint %%

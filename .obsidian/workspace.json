@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "07d4405fed130a3f",
+        "id": "a08d84f30586b7d7",
         "type": "tabs",
         "children": [
           {
-            "id": "ae5286ab71bcc2f5",
+            "id": "0876eeb3e54d29fb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C-Sharp/OOP/SOLID/Open Close Principle.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C-Sharp/OOP/SOLID/Open Close Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C-Sharp/OOP/SOLID/Open Close Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C-Sharp/OOP/SOLID/Open Close Principle.md"
+              }
             }
           },
           {
@@ -147,12 +155,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ae5286ab71bcc2f5",
+  "active": "0876eeb3e54d29fb",
   "lastOpenFiles": [
+    "C-Sharp/OOP/SOLID/SOLID.md",
+    "C-Sharp/OOP/SOLID/Open Close Principle.md",
+    "C-Sharp/OOP/OOP.md",
+    "C-Sharp/Generics/Generics.md",
+    "C-Sharp/OOP/SOLID",
+    "C-Sharp/Generics",
     "C-Sharp/Delegates/Delegates.md",
     "C-Sharp/OOP/Abstraction.md",
     "C-Sharp/Delegates",
-    "C-Sharp/OOP/OOP.md",
     "Go/Go.md",
     "Go/Operators.md",
     "C-Sharp/Datatypes/Datatypes.md",
@@ -180,11 +193,6 @@
     "index.md",
     "Untitled.canvas",
     "C-Sharp/Design Patterns/Structural/Decorator/Simple Decorator.md",
-    "C-Sharp/Design Patterns/Structural/Composite/Simple Composite.md",
-    "C-Sharp/Design Patterns/Structural/Decorator",
-    "C-Sharp/Design Patterns/Behavioral/Command/Simple Command.md",
-    "C-Sharp/Design Patterns/Structural/Composite",
-    "C-Sharp/Design Patterns/Behavioral/Command/Composite Command.md",
-    "C-Sharp/Design Patterns/Structural"
+    "C-Sharp/Design Patterns/Structural/Decorator"
   ]
 }
