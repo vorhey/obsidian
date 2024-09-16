@@ -5,6 +5,7 @@
 	- [[Value Types]]
 - **[[Delegates]]**
 - **[[Design Patterns]]**
+- **[[Events]]**
 - **[[Generics]]**
 - **[[OOP]]**
 

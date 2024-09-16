@@ -1,25 +1,25 @@
 %% Begin Waypoint %%
-- **Behavioral**
+- **[[Behavioral]]**
 	- **Chain of Responsibility**
 		- [[Comparator Chain]]
 		- [[Fluent Chain]]
 		- [[Simple Chain]]
-	- **[[Command]]**
+	- **Command**
 		- [[Composite Command]]
 		- [[Simple Command]]
-- **Creational**
-	- **Builder**
+- **[[Creational]]**
+	- **[[Builder]]**
 		- [[Abstract Builder]]
-	- **Factory**
+	- **[[Factory]]**
 		- [[Abstract Factory]]
 		- [[Factory Method]]
 		- [[Simple Factory]]
-	- **Singleton**
+	- **[[Singleton]]**
 		- [[Static Singleton]]
-- **Structural**
-	- **Composite**
+- **[[Structural]]**
+	- **[[Composite]]**
 		- [[Simple Composite]]
-	- **Decorator**
+	- **[[Decorator]]**
 		- [[Simple Decorator]]
 
 %% End Waypoint %%
