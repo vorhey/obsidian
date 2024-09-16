@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
+                "file": "C-Sharp/OOP/Abstraction.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
+                "file": "C-Sharp/OOP/Abstraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
+                "file": "C-Sharp/OOP/Abstraction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md"
+                "file": "C-Sharp/OOP/Abstraction.md"
               }
             }
           },
@@ -157,6 +157,13 @@
   },
   "active": "ae5286ab71bcc2f5",
   "lastOpenFiles": [
+    "C-Sharp/OOP/OOP.md",
+    "C-Sharp/OOP/Abstraction.md",
+    "Go/Go.md",
+    "Go/Operators.md",
+    "C-Sharp/Datatypes/Datatypes.md",
+    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
+    "C-Sharp/OOP",
     "C-Sharp/C-Sharp.md",
     "Docker.md",
     "C-Sharp/Design Patterns/Creational/Factory/Factory Method.md",
@@ -172,12 +179,9 @@
     "C-Sharp/Concurrency/Multithreading",
     "C-Sharp/Concurrency/Multithreading/Parallel processing",
     "C-Sharp/Concurrency",
-    "Go/Operators.md",
     "Go/Modules.md",
     "C-Sharp/Design Patterns/Behavioral/Behavioral.md",
     "C-Sharp/Design Patterns/Behavioral/Command/Command.md",
-    "C-Sharp/Datatypes/Datatypes.md",
-    "Go/Go.md",
     "Go/index.md",
     "index.md",
     "Untitled.canvas",
@@ -188,11 +192,7 @@
     "C-Sharp/Design Patterns/Structural/Composite",
     "C-Sharp/Design Patterns/Behavioral/Command/Composite Command.md",
     "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
-    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
-    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
-    "C-Sharp/Datatypes/Value Types.md",
     "C-Sharp/Design Patterns/Structural",
-    "C-Sharp/Design Patterns/Behavioral/Command",
-    "C#/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain"
+    "C-Sharp/Design Patterns/Behavioral/Command"
   ]
 }
