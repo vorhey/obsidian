@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "bb56d7b60d7175c6",
+        "id": "2df5d239ce6f7124",
         "type": "tabs",
         "children": [
           {
-            "id": "44fb9da1767e098e",
+            "id": "6dba3c65bbfa52cf",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -147,8 +147,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44fb9da1767e098e",
+  "active": "6dba3c65bbfa52cf",
   "lastOpenFiles": [
+    "C-Sharp/Design Patterns/Structural/Decorator/Simple Decorator.md",
     "C-Sharp/Design Patterns/Structural/Decorator/Decorator.md",
     "C-Sharp/Design Patterns/Structural/Composite/Composite.md",
     "C-Sharp/Design Patterns/Structural/Structural.md",
@@ -176,7 +177,6 @@
     "C-Sharp/OOP/Principles/Abstraction.md",
     "C-Sharp/OOP/OOP.md",
     "C-Sharp/OOP/SOLID/Open Close Principle.md",
-    "C-Sharp/OOP/SOLID/SOLID.md",
     "C-Sharp/OOP/SOLID",
     "C-Sharp/Generics",
     "C-Sharp/Delegates",
