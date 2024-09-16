@@ -3,6 +3,7 @@
 - **[[Datatypes]]**
 	- [[Reference Types]]
 	- [[Value Types]]
+- **[[Delegates]]**
 - **[[Design Patterns]]**
 - **[[OOP]]**
 
