@@ -1,5 +1,5 @@
 %% Begin Waypoint %%
-- [[Abstraction]]
+- **[[Principles]]**
 - **[[SOLID]]**
 
 %% End Waypoint %%

@@ -1,4 +1,4 @@
 %% Begin Waypoint %%
-- [[Abstract Builder]]
+- [[Abstraction]]
 
 %% End Waypoint %%
