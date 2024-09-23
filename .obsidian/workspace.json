@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C-Sharp/OOP/SOLID/Open Close Principle.md",
+                "file": "C-Sharp/Concurrency/Concurrency.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C-Sharp/OOP/SOLID/Open Close Principle.md",
+                "file": "C-Sharp/Concurrency/Concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C-Sharp/OOP/SOLID/Open Close Principle.md",
+                "file": "C-Sharp/Concurrency/Concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C-Sharp/OOP/SOLID/Open Close Principle.md"
+                "file": "C-Sharp/Concurrency/Concurrency.md"
               }
             }
           },
@@ -157,6 +157,9 @@
   },
   "active": "6dba3c65bbfa52cf",
   "lastOpenFiles": [
+    "C-Sharp/Concurrency/Asynchronous programming/Asynchronous programming.md",
+    "C-Sharp/Concurrency/Concurrency.md",
+    "C-Sharp/OOP/SOLID/Open Close Principle.md",
     "C-Sharp/Design Patterns/Structural/Decorator/Simple Decorator.md",
     "C-Sharp/Design Patterns/Structural/Decorator/Decorator.md",
     "C-Sharp/Design Patterns/Structural/Composite/Composite.md",
@@ -182,9 +185,6 @@
     "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
     "C-Sharp/Events/Events.md",
     "C-Sharp/Events",
-    "C-Sharp/OOP/Principles/Abstraction.md",
-    "C-Sharp/OOP/OOP.md",
-    "C-Sharp/OOP/SOLID/Open Close Principle.md",
     "C-Sharp/OOP/SOLID",
     "C-Sharp/Generics",
     "C-Sharp/Delegates",
