@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2df5d239ce6f7124",
+        "id": "e7033cdfe6002866",
         "type": "tabs",
         "children": [
           {
-            "id": "6dba3c65bbfa52cf",
+            "id": "4a2981e04fe21236",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C-Sharp/Concurrency/Concurrency.md",
-                "mode": "preview",
+                "file": "Go/Operators.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C-Sharp/Concurrency/Concurrency.md",
+                "file": "Go/Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C-Sharp/Concurrency/Concurrency.md",
+                "file": "Go/Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C-Sharp/Concurrency/Concurrency.md"
+                "file": "Go/Operators.md"
               }
             }
           },
@@ -155,16 +155,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6dba3c65bbfa52cf",
+  "active": "4a2981e04fe21236",
   "lastOpenFiles": [
-    "C-Sharp/Concurrency/Asynchronous programming/Asynchronous programming.md",
+    "Go/Modules.md",
+    "C-Sharp/Design Patterns/Creational/Builder/Abstract Builder.md",
+    "C-Sharp/Design Patterns/Creational/Builder/Builder.md",
+    "C-Sharp/Design Patterns/Behavioral/Command/Simple Command.md",
+    "C-Sharp/Design Patterns/Behavioral/Command/Composite Command.md",
+    "C-Sharp/Design Patterns/Behavioral/Command/Command.md",
     "C-Sharp/Concurrency/Concurrency.md",
+    "C-Sharp/Concurrency/Asynchronous programming/Asynchronous programming.md",
     "C-Sharp/OOP/SOLID/Open Close Principle.md",
     "C-Sharp/Design Patterns/Structural/Decorator/Simple Decorator.md",
     "C-Sharp/Design Patterns/Structural/Decorator/Decorator.md",
     "C-Sharp/Design Patterns/Structural/Composite/Composite.md",
     "C-Sharp/Design Patterns/Structural/Structural.md",
-    "C-Sharp/Design Patterns/Behavioral/Command/Command.md",
     "C-Sharp/OOP/Principles/Principles.md",
     "C-Sharp/OOP/Principles",
     "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Chain of Responsibility.md",
@@ -174,13 +179,8 @@
     "C-Sharp/Design Patterns/Creational/Singleton/Singleton.md",
     "C-Sharp/Design Patterns/Creational/Factory/Factory.md",
     "C-Sharp/Design Patterns/Creational/Factory/Factory Method.md",
-    "C-Sharp/Design Patterns/Creational/Builder/Builder.md",
     "C-Sharp/Design Patterns/Creational/Creational.md",
-    "C-Sharp/Design Patterns/Creational/Builder/Abstract Builder.md",
     "C-Sharp/Design Patterns/Design Patterns.md",
-    "C-Sharp/Design Patterns/Behavioral/Command/Command.md",
-    "C-Sharp/Design Patterns/Behavioral/Command/Simple Command.md",
-    "C-Sharp/Design Patterns/Behavioral/Command/Composite Command.md",
     "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
     "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
     "C-Sharp/Events/Events.md",
