@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go/Operators.md",
-                "mode": "source",
+                "file": "Go/Datatypes/Primitives.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Go/Operators.md",
+                "file": "Go/Datatypes/Primitives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Go/Operators.md",
+                "file": "Go/Datatypes/Primitives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Go/Operators.md"
+                "file": "Go/Datatypes/Primitives.md"
               }
             }
           },
@@ -157,7 +157,11 @@
   },
   "active": "4a2981e04fe21236",
   "lastOpenFiles": [
+    "Go/Datatypes/Composite.md",
+    "Go/Datatypes/Primitives.md",
+    "Go/Go.md",
     "Go/Modules.md",
+    "Go/Operators.md",
     "C-Sharp/Design Patterns/Creational/Builder/Abstract Builder.md",
     "C-Sharp/Design Patterns/Creational/Builder/Builder.md",
     "C-Sharp/Design Patterns/Behavioral/Command/Simple Command.md",
@@ -180,10 +184,6 @@
     "C-Sharp/Design Patterns/Creational/Factory/Factory.md",
     "C-Sharp/Design Patterns/Creational/Factory/Factory Method.md",
     "C-Sharp/Design Patterns/Creational/Creational.md",
-    "C-Sharp/Design Patterns/Design Patterns.md",
-    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
-    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
-    "C-Sharp/Events/Events.md",
     "C-Sharp/Events",
     "C-Sharp/OOP/SOLID",
     "C-Sharp/Generics",
