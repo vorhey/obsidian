@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Go/Datatypes/Primitives.md",
+                "file": "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Chain of Responsibility.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Go/Datatypes/Primitives.md",
+                "file": "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Chain of Responsibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Go/Datatypes/Primitives.md",
+                "file": "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Chain of Responsibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Go/Datatypes/Primitives.md"
+                "file": "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Chain of Responsibility.md"
               }
             }
           },
@@ -159,9 +159,10 @@
   "lastOpenFiles": [
     "Go/Datatypes/Composite.md",
     "Go/Datatypes/Primitives.md",
-    "Go/Go.md",
-    "Go/Modules.md",
     "Go/Operators.md",
+    "Go/Modules.md",
+    "Go/Go.md",
+    "Docker.md",
     "C-Sharp/Design Patterns/Creational/Builder/Abstract Builder.md",
     "C-Sharp/Design Patterns/Creational/Builder/Builder.md",
     "C-Sharp/Design Patterns/Behavioral/Command/Simple Command.md",
@@ -183,7 +184,6 @@
     "C-Sharp/Design Patterns/Creational/Singleton/Singleton.md",
     "C-Sharp/Design Patterns/Creational/Factory/Factory.md",
     "C-Sharp/Design Patterns/Creational/Factory/Factory Method.md",
-    "C-Sharp/Design Patterns/Creational/Creational.md",
     "C-Sharp/Events",
     "C-Sharp/OOP/SOLID",
     "C-Sharp/Generics",
