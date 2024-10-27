@@ -11,10 +11,14 @@
             "id": "4a2981e04fe21236",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "C-Sharp/Design Patterns/Behavioral/Command/Simple Command.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Simple Command"
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C-Sharp/Design Patterns/Behavioral/Command/Simple Command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Simple Command"
             }
           },
           {
@@ -107,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C-Sharp/Design Patterns/Behavioral/Command/Simple Command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Simple Command"
             }
           },
           {
@@ -132,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "C-Sharp/Design Patterns/Behavioral/Command/Simple Command.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Simple Command"
             }
           },
           {
@@ -167,8 +175,15 @@
   },
   "active": "4a2981e04fe21236",
   "lastOpenFiles": [
-    "Docker.md",
+    "C-Sharp/Design Patterns/Behavioral/Command/Command.md",
+    "C-Sharp/Design Patterns/Behavioral/Command/Composite Command.md",
+    "C-Sharp/Design Patterns/Behavioral/Behavioral.md",
+    "C-Sharp/Design Patterns/Behavioral/Command/Simple Command.md",
+    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
+    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
+    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
     "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Chain of Responsibility.md",
+    "Docker.md",
     "Go/Datatypes/Composite.md",
     "Go/Datatypes/Primitives.md",
     "Go/Operators.md",
@@ -176,9 +191,6 @@
     "Go/Go.md",
     "C-Sharp/Design Patterns/Creational/Builder/Abstract Builder.md",
     "C-Sharp/Design Patterns/Creational/Builder/Builder.md",
-    "C-Sharp/Design Patterns/Behavioral/Command/Simple Command.md",
-    "C-Sharp/Design Patterns/Behavioral/Command/Composite Command.md",
-    "C-Sharp/Design Patterns/Behavioral/Command/Command.md",
     "C-Sharp/Concurrency/Concurrency.md",
     "C-Sharp/Concurrency/Asynchronous programming/Asynchronous programming.md",
     "C-Sharp/OOP/SOLID/Open Close Principle.md",
@@ -188,12 +200,8 @@
     "C-Sharp/Design Patterns/Structural/Structural.md",
     "C-Sharp/OOP/Principles/Principles.md",
     "C-Sharp/OOP/Principles",
-    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
-    "C-Sharp/Design Patterns/Behavioral/Behavioral.md",
     "C-Sharp/Design Patterns/Creational/Singleton/Static Singleton.md",
     "C-Sharp/Design Patterns/Creational/Singleton/Singleton.md",
-    "C-Sharp/Design Patterns/Creational/Factory/Factory.md",
-    "C-Sharp/Design Patterns/Creational/Factory/Factory Method.md",
     "C-Sharp/Events",
     "C-Sharp/OOP/SOLID",
     "C-Sharp/Generics",
