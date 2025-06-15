@@ -1,9 +1,9 @@
 %% Begin Waypoint %%
 - **[[Concurrency]]**
-- **[[Datatypes]]**
+- **[[C-Sharp/Datatypes/Datatypes]]**
 	- [[Reference Types]]
 	- [[Value Types]]
-- **[[Delegates]]**
+- **[[C-Sharp/Delegates/Delegates]]**
 - **[[Design Patterns]]**
 - **[[Events]]**
 - **[[Generics]]**
