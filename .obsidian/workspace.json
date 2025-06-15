@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e7033cdfe6002866",
+        "id": "e2c9d57aa21b6c8b",
         "type": "tabs",
         "children": [
           {
-            "id": "4a2981e04fe21236",
+            "id": "a5e121a82599af17",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/core-plugins.json",
-                "staged": true
+                "file": "Docker.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (core-plugins.json)"
+              "icon": "lucide-file",
+              "title": "Docker"
             }
           }
         ]
@@ -125,8 +127,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a2981e04fe21236",
+  "active": "0ff4c24cfeaa8c1a",
   "lastOpenFiles": [
+    "C#",
     "Docker.md",
     "C-Sharp/OOP/Principles/Abstraction.md",
     "C-Sharp/C-Sharp.md",
@@ -152,7 +155,6 @@
     "C-Sharp/Design Patterns/Structural/Decorator/Decorator.md",
     "C-Sharp/Design Patterns/Structural/Composite/Composite.md",
     "C-Sharp/Design Patterns/Structural/Structural.md",
-    "C-Sharp/OOP/Principles/Principles.md",
     "C-Sharp/OOP/Principles",
     "C-Sharp/Events",
     "C-Sharp/OOP/SOLID",
