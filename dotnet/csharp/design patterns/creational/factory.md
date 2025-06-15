@@ -1,6 +1,5 @@
-
-
 # Factory simple
+
 ```csharp
 var car = VehicleFactory.CreateVehicle(VehicleType.Car);
 car.Start(); // Output: Car is starting
@@ -199,4 +198,149 @@ public class DatabaseHandler(DatabaseFactory databaseFactory, DatabaseCredential
         engine.Close();
     }
 }
+```
+
+# Factory abstract
+
+```csharp
+// Abstract products - the things we want to create
+public abstract class Document
+{
+    public abstract void Open();
+    public abstract void Save();
+}
+
+public abstract class Image
+{
+    public abstract void Display();
+    public abstract void Resize(int width, int height);
+}
+
+// PDF family of products
+public class PDFDocument : Document
+{
+    public override void Open()
+    {
+        Console.WriteLine("Opening PDF document with Adobe Reader");
+    }
+
+    public override void Save()
+    {
+        Console.WriteLine("Saving as PDF format");
+    }
+}
+
+public class PDFImage : Image
+{
+    public override void Display()
+    {
+        Console.WriteLine("Displaying PDF embedded image");
+    }
+
+    public override void Resize(int width, int height)
+    {
+        Console.WriteLine($"Resizing PDF image to {width}x{height}");
+    }
+}
+
+// Word family of products
+public class WordDocument : Document
+{
+    public override void Open()
+    {
+        Console.WriteLine("Opening Word document with Microsoft Word");
+    }
+
+    public override void Save()
+    {
+        Console.WriteLine("Saving as DOCX format");
+    }
+}
+
+public class WordImage : Image
+{
+    public override void Display()
+    {
+        Console.WriteLine("Displaying Word embedded image");
+    }
+
+    public override void Resize(int width, int height)
+    {
+        Console.WriteLine($"Resizing Word image to {width}x{height}");
+    }
+}
+
+// Abstract Factory - creates families of related products
+public abstract class DocumentFactory
+{
+    public abstract Document CreateDocument();
+    public abstract Image CreateImage();
+}
+
+// Concrete factories - each creates a family of related products
+public class PDFFactory : DocumentFactory
+{
+    public override Document CreateDocument()
+    {
+        return new PDFDocument();
+    }
+
+    public override Image CreateImage()
+    {
+        return new PDFImage();
+    }
+}
+
+public class WordFactory : DocumentFactory
+{
+    public override Document CreateDocument()
+    {
+        return new WordDocument();
+    }
+
+    public override Image CreateImage()
+    {
+        return new WordImage();
+    }
+}
+
+// Client code
+public class DocumentProcessor
+{
+    private readonly DocumentFactory _factory;
+
+    public DocumentProcessor(DocumentFactory factory)
+    {
+        _factory = factory;
+    }
+
+    public void ProcessDocument()
+    {
+        // Create related products from the same family
+        Document doc = _factory.CreateDocument();
+        Image img = _factory.CreateImage();
+
+        // Use the products together
+        doc.Open();
+        img.Display();
+        img.Resize(800, 600);
+        doc.Save();
+    }
+}
+
+// Usage
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("=== Processing PDF Document ===");
+        var pdfProcessor = new DocumentProcessor(new PDFFactory());
+        pdfProcessor.ProcessDocument();
+
+        Console.WriteLine("\n=== Processing Word Document ===");
+        var wordProcessor = new DocumentProcessor(new WordFactory());
+        wordProcessor.ProcessDocument();
+    }
+}
+
 ```
