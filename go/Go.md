@@ -1,6 +1,6 @@
 %% Begin Waypoint %%
 - **Datatypes**
-	- [[Go/Datatypes/Composite]]
+	- [[go/Datatypes/Composite]]
 	- [[Primitives]]
 - [[Modules]]
 - [[Operators]]

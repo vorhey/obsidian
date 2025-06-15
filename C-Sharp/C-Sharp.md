@@ -6,7 +6,7 @@
 - **[[C-Sharp/Delegates/Delegates]]**
 - **[[Design Patterns]]**
 - **[[Events]]**
-- **[[Generics]]**
+- **[[C-Sharp/Generics/Generics]]**
 - **[[OOP]]**
 
 %% End Waypoint %%

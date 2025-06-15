@@ -1,6 +1,6 @@
 %% Begin Waypoint %%
 - **[[Builder]]**
 - **[[Factory]]**
-- **[[Singleton]]**
+- **[[C-Sharp/Design Patterns/Creational/Singleton/Singleton]]**
 
 %% End Waypoint %%

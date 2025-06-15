@@ -6,6 +6,9 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasShapes",
+      "SiDocker",
+      "SiGo",
       "SiCsharp",
       "SiDotnet"
     ],
@@ -32,5 +35,7 @@
     "useInternalPlugins": false
   },
   "dotnet": "SiDotnet",
-  "dotnet/csharp": "SiCsharp"
+  "dotnet/csharp": "SiCsharp",
+  "go": "SiGo",
+  "docker.md": "SiDocker"
 }
