@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dotnet/csharp/delegates.md",
-                "mode": "preview",
+                "file": "dotnet/csharp/design patterns/behavioral/chain of responsibility.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "delegates"
+              "title": "chain of responsibility"
             }
           }
         ]
@@ -129,13 +129,19 @@
   },
   "active": "eeedef875572a126",
   "lastOpenFiles": [
-    "dotnet/csharp/datatypes.md",
-    "dotnet/csharp/delegates.md",
-    "dotnet/csharp/generics.md",
+    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
+    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
+    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Comparator Chain.md",
+    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Chain of Responsibility.md",
+    "dotnet/csharp/design patterns/behavioral/chain of responsibility.md",
     "dotnet/csharp/design patterns/structural/composite.md",
     "dotnet/csharp/design patterns/creational/singleton.md",
     "dotnet/csharp/design patterns/creational/factory.md",
     "dotnet/csharp/design patterns/creational/builder.md",
+    "dotnet/csharp/datatypes.md",
+    "dotnet/csharp/delegates.md",
+    "dotnet/csharp/generics.md",
+    "dotnet/csharp/design patterns/behavioral",
     "C-Sharp/Design Patterns/Structural/Composite/Simple Composite.md",
     "dotnet/csharp/design patterns/structural",
     "C-Sharp/Design Patterns/Structural/Composite/Composite.md",
@@ -153,18 +159,12 @@
     "go/Datatypes/Composite.md",
     "C-Sharp/OOP/SOLID/Open Close Principle.md",
     "C-Sharp/OOP/SOLID/SOLID.md",
-    "C-Sharp/C-Sharp.md",
-    "C-Sharp/Delegates/Delegates.md",
-    "C-Sharp/Events/Events.md",
-    "C-Sharp/Generics/Generics.md",
     "dotnet/csharp",
     "dotnet",
-    "C-Sharp/OOP/Principles/Abstraction.md",
     "C-Sharp/OOP/Principles",
     "C-Sharp/Events",
     "C-Sharp/OOP/SOLID",
     "C-Sharp/Generics",
-    "C-Sharp/Delegates",
     "Untitled.canvas"
   ]
 }

@@ -1,5 +1,5 @@
 %% Begin Waypoint %%
-- **[[Chain of Responsibility]]**
+- **[[C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Chain of Responsibility]]**
 - **[[Command]]**
 
 %% End Waypoint %%
