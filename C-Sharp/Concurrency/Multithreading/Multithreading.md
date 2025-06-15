@@ -1,6 +1,6 @@
 - A form of concurrency that uses multiple threads of execution.
 %% Begin Waypoint %%
-- **[[Parallel processing]]**
+- **[[C-Sharp/Concurrency/Multithreading/Parallel processing/Parallel processing]]**
 
 %% End Waypoint %%
 

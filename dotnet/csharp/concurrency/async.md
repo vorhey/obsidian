@@ -1,0 +1,3 @@
+- A form of concurrency that uses futures or callbacks to avoid unnecessary threads
+- For GUI programs, asynchronous programming frees up the UI thread; this permits the GUI application to remain responsive to user input.
+- For server applications, asynchronous programming frees up request threads; this permits the server to use its threads to serve more requests.
