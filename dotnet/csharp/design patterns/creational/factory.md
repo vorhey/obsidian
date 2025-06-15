@@ -337,10 +337,11 @@ class Program
         var pdfProcessor = new DocumentProcessor(new PDFFactory());
         pdfProcessor.ProcessDocument();
 
-        Console.WriteLine("\n=== Processing Word Document ===");
+        Console.WriteLine("\n");
+
+        Console.WriteLine("=== Processing Word Document ===");
         var wordProcessor = new DocumentProcessor(new WordFactory());
         wordProcessor.ProcessDocument();
     }
 }
-
 ```
