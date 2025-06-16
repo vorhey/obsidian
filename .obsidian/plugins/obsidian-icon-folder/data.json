@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "BoBxlTypescript",
+      "SiTypescript",
       "FasShapes",
       "SiDocker",
-      "SiGo",
-      "SiCsharp",
-      "SiDotnet"
+      "SiGo"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,5 +37,6 @@
   "dotnet": "SiDotnet",
   "dotnet/csharp": "SiCsharp",
   "go": "SiGo",
-  "docker.md": "SiDocker"
+  "docker.md": "SiDocker",
+  "typescript": "BoBxlTypescript"
 }

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dotnet/csharp/concurrency/parallel processing.md",
-                "mode": "preview",
+                "file": "go/Untitled.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "parallel processing"
+              "title": "Untitled"
             }
           }
         ]
@@ -129,33 +129,34 @@
   },
   "active": "eeedef875572a126",
   "lastOpenFiles": [
-    "dotnet/csharp/concurrency/multithreading.md",
+    "go/Datatypes/Primitives.md",
+    "go/Untitled.md",
+    "go/Datatypes/Composite.md",
+    "go/modules.md",
+    "go/Go.md",
+    "go/operators.md",
     "dotnet/csharp/concurrency/parallel processing.md",
-    "C-Sharp/Concurrency/Multithreading/Parallel processing/Parallel processing.md",
-    "C-Sharp/Concurrency/Multithreading/Multithreading.md",
+    "dotnet/csharp/concurrency/multithreading.md",
     "dotnet/csharp/concurrency/async.md",
-    "C-Sharp/Concurrency/Asynchronous programming/Asynchronous programming.md",
-    "dotnet/csharp/concurrency",
-    "C-Sharp/Concurrency/Reactive programming/Reactive programming.md",
-    "C-Sharp/Concurrency/Concurrency.md",
-    "C-Sharp/Generics/Generics.md",
-    "C-Sharp/Design Patterns/Design Patterns.md",
-    "C-Sharp/Design Patterns/Structural/Structural.md",
-    "C-Sharp/Design Patterns/Structural/Decorator/Simple Decorator.md",
-    "C-Sharp/Design Patterns/Behavioral/Behavioral.md",
     "dotnet/csharp/generics.md",
     "dotnet/csharp/delegates.md",
     "dotnet/csharp/datatypes.md",
     "dotnet/csharp/design patterns/structural/composite.md",
-    "dotnet/csharp/design patterns/creational/builder.md",
-    "dotnet/csharp/design patterns/creational/factory.md",
     "dotnet/csharp/design patterns/creational/singleton.md",
+    "dotnet/csharp/design patterns/creational/factory.md",
+    "dotnet/csharp/design patterns/creational/builder.md",
     "dotnet/csharp/design patterns/behavioral/command.md",
     "dotnet/csharp/design patterns/behavioral/chain of responsibility.md",
-    "C-Sharp/Design Patterns/Structural/Decorator/Decorator.md",
-    "C-Sharp/Design Patterns/Behavioral/Command/Composite Command.md",
-    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Simple Chain.md",
-    "C-Sharp/Design Patterns/Behavioral/Chain of Responsibility/Fluent Chain.md",
+    "typescript",
+    "C-Sharp/C-Sharp.md",
+    "C-Sharp/OOP/OOP.md",
+    "C-Sharp/OOP/SOLID/SOLID.md",
+    "C-Sharp/OOP/SOLID/Open Close Principle.md",
+    "C-Sharp/OOP/Principles/Principles.md",
+    "C-Sharp/OOP/Principles/Abstraction.md",
+    "C-Sharp/Concurrency/Multithreading/Parallel processing/Parallel processing.md",
+    "C-Sharp/Concurrency/Multithreading/Multithreading.md",
+    "dotnet/csharp/concurrency",
     "dotnet/csharp/design patterns/behavioral",
     "dotnet/csharp/design patterns/structural",
     "dotnet/csharp/design patterns/creational",
@@ -164,7 +165,6 @@
     "dotnet",
     "C-Sharp/OOP/Principles",
     "C-Sharp/Events",
-    "C-Sharp/OOP/SOLID",
     "Untitled.canvas"
   ]
 }

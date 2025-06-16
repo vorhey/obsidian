@@ -4,17 +4,12 @@ using System.Collections;
 using System.Collections.Generic;
 
 var photoEngine = new PhotoProcessor();
-
 var filters = new Filters();
-
 photoEngine.RegisterFilter(new ContrastFilter());
-
 photoEngine.RegisterFilter(new BrightnessFilter());
-
 PhotoProcessor.ApplyFilter filterApplier = filters.BrightnessFilter;
 
 filterApplier += filters.ContrastFilter;
-
 photoEngine.ProcessMultiple("C:", filters.BrightnessFilter, filters.ContrastFilter);
 
 Console.ReadKey();
