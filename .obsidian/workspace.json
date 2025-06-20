@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/Untitled.md",
-                "mode": "source",
+                "file": "typescript/datatypes.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "datatypes"
             }
           }
         ]
@@ -129,24 +129,25 @@
   },
   "active": "eeedef875572a126",
   "lastOpenFiles": [
-    "go/Datatypes/Primitives.md",
-    "go/Untitled.md",
-    "go/Datatypes/Composite.md",
-    "go/modules.md",
-    "go/Go.md",
+    "go/datatypes.md",
+    "typescript/datatypes.md",
     "go/operators.md",
-    "dotnet/csharp/concurrency/parallel processing.md",
+    "go/modules.md",
     "dotnet/csharp/concurrency/multithreading.md",
     "dotnet/csharp/concurrency/async.md",
-    "dotnet/csharp/generics.md",
-    "dotnet/csharp/delegates.md",
     "dotnet/csharp/datatypes.md",
+    "dotnet/csharp/delegates.md",
+    "dotnet/csharp/generics.md",
     "dotnet/csharp/design patterns/structural/composite.md",
     "dotnet/csharp/design patterns/creational/singleton.md",
     "dotnet/csharp/design patterns/creational/factory.md",
     "dotnet/csharp/design patterns/creational/builder.md",
     "dotnet/csharp/design patterns/behavioral/command.md",
     "dotnet/csharp/design patterns/behavioral/chain of responsibility.md",
+    "dotnet/csharp/concurrency/parallel processing.md",
+    "go/Datatypes/Primitives.md",
+    "go/Datatypes/Composite.md",
+    "go/Go.md",
     "typescript",
     "C-Sharp/C-Sharp.md",
     "C-Sharp/OOP/OOP.md",
@@ -155,7 +156,6 @@
     "C-Sharp/OOP/Principles/Principles.md",
     "C-Sharp/OOP/Principles/Abstraction.md",
     "C-Sharp/Concurrency/Multithreading/Parallel processing/Parallel processing.md",
-    "C-Sharp/Concurrency/Multithreading/Multithreading.md",
     "dotnet/csharp/concurrency",
     "dotnet/csharp/design patterns/behavioral",
     "dotnet/csharp/design patterns/structural",
